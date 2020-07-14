@@ -3,7 +3,7 @@ function App(){
   
   return(
     <React.Fragment>
-      <h1>hello</h1>
+      <h1 className='text-danger'>hello</h1>
     </React.Fragment>
     
     
