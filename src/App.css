@@ -1,3 +1,9 @@
 p{
     margin: 0px;
 }
+.incomelist:hover{
+    background-color: green;
+}
+.expenselist:hover{
+    background-color: red;
+}

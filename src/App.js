@@ -6,16 +6,18 @@ import './App.css'
 import {Header} from './components/Header'
 import {Balance} from './components/Balance'
 import {AccountSummary} from './components/AccountSummary'
+import {TransactionHistory} from './components/TransactionHistory'
 function App(){
   
   return(
     <React.Fragment>
-      <div className='row text-center'>
+      <div className='row '>
         <div className='offset-md-4 col-md-4 border bg-light'>
           <Header/>
           <div className='container'>
             <Balance/>
             <AccountSummary/>
+            <TransactionHistory/>
           </div>
           
         </div>
