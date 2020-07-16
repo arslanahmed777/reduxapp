@@ -1,9 +1,17 @@
 p{
     margin: 0px;
 }
+.incomelist{
+    border-right: 8px solid green;
+}
+.expenselist{
+    border-right: 8px solid red;
+}
 .incomelist:hover{
     background-color: green;
+    color:white;
 }
 .expenselist:hover{
     background-color: red;
+    color:white;
 }
